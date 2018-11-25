@@ -1,3 +1,5 @@
+import { Candidate } from "../core/candidate";
+
 export class GameElectionState {
-  candidates: {name: string, votes: number}[] = [];
+  candidates: Candidate[] = [];
 }
