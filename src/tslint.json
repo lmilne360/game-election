@@ -7,11 +7,17 @@
             "app",
             "camelCase"
         ],
+        "comment-format": [
+          true,
+          "check-space"
+        ],
         "component-selector": [
             true,
             "element",
             "app",
             "kebab-case"
-        ]
+        ],
+        "autoFixOnSave": true,
+        "import-spacing": true,
     }
 }
