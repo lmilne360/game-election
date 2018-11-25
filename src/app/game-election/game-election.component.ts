@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GameElectionStore } from './game-election-store.store';
+import { GameElectionStore } from './game-election.store';
 import { map, distinctUntilChanged } from 'rxjs/operators'
 
 @Component({
